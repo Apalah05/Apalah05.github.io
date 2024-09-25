@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | Pendataan Mahasiswa Universitas Mulawarman</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles/base.css" />
+
+    <link rel="stylesheet" href="styles/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="hamburger-menu" id="hamburger-menu">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <ul class="hamburger-navbar" id="hamburger-navbar">
+            <li><a href="index.html" class="active">Beranda</a></li>
+            <li><a href="tentang_ini.html">Tentang Kami</a></li>
+            <li><a href="lihat_hasil.html">Lihat Hasil</a>
+            <li>
+              <button id="dark-mode-btn">Dark Mode</button>
+              <button id="light-mode-btn" style="display: none;">Light Mode</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <script src="styles/script.js"></script>
+    
+    <main class="hero-section">
+      <img src="assets/pelelangan.jpg" alt="Pelelangan" class="hero-image" />
+
+      <div class="hero-container">
+        <hgroup>
+          <h1 class="hero-title">
+            <strong>Pelelangan De Auction</strong>
+          </h1>
+
+          <p class="hero-description">
+            Discover your antique things just search the antique you want
+          </p>
+        </hgroup>
+
+        <search>
+          <form action="" class="search-bar-auctioners">
+            <input type="text" placeholder= "Search Antique At Auction" class="search-input-auctioners" />
+            <button type="submit" class="search-button-auctioners">
+              <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            </button>
+          </form>
+        </search>
+      </div>
+    </main>
+
+    <footer class="footbar-section">
+      <div class="footbar-container">
+        <figure class="footbar-brand">
+            <img src="assets/logo pelelangan.jpg" alt="" width="75px" height="75px">
+            <figcaption><strong>De'Auction</strong></figcaption>
+        </figure>
+
+        <address>
+            <menu class="footbar-list">
+                <li class="footbar-item">
+                    <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
+                    <a href="tel:+62999111000">
+                        +62 999 111 000
+                    </a>
+                </li>
+                <li class="footbar-item">
+                    <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
+                    <a href="De'auction@gmail.com">
+                        De'auction@gmail.com
+                    </a>
+                </li>
+                <li class="footbar-item">
+                    <i class="fa fa-question-circle" style="margin-right: 5px;"></i>
+                    <a href="tel:198">
+                        Hotline 198
+                    </a>
+                </li>
+            </menu>
+        </address>
+    </div>
+
+      <div class="footbar-container">
+        <p class="footbar-text">
+            Copyright 2024 <br>
+            De'Auction. All rights reserved
+        </p>
+
+        <div class="popup-box" id="popup-box">
+          <h1>Pop Up Box</h1>
+          <p>Ini contoh pop up box.</p>
+          <button id="close-popup-btn">Tutup</button>
+        </div>
+
+        <menu class="footbar-list">
+            <li class="footbar-item">
+                <a href="https://lelang.go.id/">
+                    Lelang Indonesia
+                </a>
+            </li>
+            <li class="footbar-item">
+                <a href="https://auctionet.com/en">
+                    Auctionet
+                </a>
+            </li>
+        </menu>
+    </div>
+    </footer>
+  </body>
+</html>

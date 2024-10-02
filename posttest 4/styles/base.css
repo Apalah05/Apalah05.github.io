@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --kuning: #ffd53a;
+  --hijau: #848b88;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/pelelangan.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;  
+  background-color: #141313;
+  transition: backgroun-color 0.5s;
+}
+
+a,
+.button .navbar-section {
+  text-decoration: none;
+  color: unset;
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburger-menu {
+      display: block;
+  }
+  .navbar {
+      display: none;
+  }
+  .hamburger-navbar {
+      display: block;
+  }
+}

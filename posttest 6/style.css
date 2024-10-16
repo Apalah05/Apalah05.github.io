@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(135, 132, 132, 0.6)),url(pelelangan.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    position: relative;
+    z-index: 1001;
+}
+
+.hamburger-navbar {
+    display: none;
+}
+
+.hamburger-navbar.show {
+    display: block;
+}
+
+.hamburger-navbar li {
+    padding: 10px;
+}
+  
+.hamburger-navbar a {
+    text-decoration: none;
+    color: #333;
+}
+  
+.hamburger-navbar a:hover {
+    color: #666;
+}
+  
+.button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #444;
+}
+  
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+  
+.dark-mode a {
+    color: #ccc;
+}
+  
+.right-nav img {
+    height: 50px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: block; 
+    }
+
+    .hamburger-navbar {
+        width: 100%;
+    }
+
+    .right-nav {
+        margin-top: 1rem;
+    }
+}
+
+.mid-info {
+    text-align: center;
+    color: white;
+    padding: 10rem;
+}
+
+.name {
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.name span {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.work {
+    letter-spacing: 2.5px;
+}
+
+.sec-des {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(120, 120, 120);
+    display: flex;
+    align-items: center;
+    padding: 7rem 5rem;
+    justify-content: space-between;
+}
+
+.sec-des-left {
+    width: 50ch;
+}
+
+.sec-des p {
+    line-height: 2;
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgb(80, 78, 78);
+}
+
+.sec-des img {
+    width: 45%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.exp {
+    padding: 10.1rem 7.5rem;
+    background: #0c0909;
+    color: rgb(130, 130, 130);
+}
+
+.exp h3 {
+    background: #0c0909;
+    color: rgb(92, 92, 92);
+}
+
+.product {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+.product,
+.title {
+	text-align:left;
+	padding-bottom: 60px;
+}
+
+.product,
+.title h2 {
+	font-size: 50px;
+	line-height: 55px;
+	color:#ffc221;
+	font-weight: 500;
+	text-transform: uppercase;
+    margin-bottom: 27px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.product,
+.title h2:after {
+	position: absolute;
+    border-bottom: #000 solid 10px;
+    content: '';
+    top: 100%;
+    width: 110px;
+}
+
+.product, 
+.title span {
+    color:#070500;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.product-box {
+    text-align: center;
+    padding: 10pX;
+    background: #333;
+}
+
+.product-bg {
+    background-image: url(Pelelanganumum.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.exp,
+.product-bg {
+    background: #fff;
+}
+
+.product-box img {
+    width: 100%;
+    height: auto;
+}
+
+.table-pelelangan th,
+.table-pelelangan td {
+    baikroung: #f0f0f0;
+}
+
+.product-bg-white {
+	background: #ffffffbd;
+	box-shadow: #00000040 0px 0px 25px 0px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.product-bg .product-bg-white .product-box {
+ 	background: #ddd;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ 	padding: 20px 25px;
+
+}
+
+.product-bg .product-bg-white .product-box i img {width: 100%;}
+.product-bg .product-bg-white .product-box:hover {
+ 	background: #fdc24f;
+}
+
+.product-bg .product-bg-white .product-box  h3 {
+ 	color: #020000;
+ 	font-weight: 500;
+ 	font-size: 17px;
+ 	line-height: 20px;
+ 	padding-top: 15px;
+}
+
+.product-bg .product-bg-white .product-box span {
+ 	color: #020000;
+ 	font-weight: 500;
+ 	font-size: 22px;
+ 	line-height: 22px;
+}
+
+.product-bg .product-bg-white .product-box span:hover {
+	color: #fff;
+}
+
+.search-bar-pelelangan {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    border: 5px solid var(black);
+    width: fit-content;
+    border-radius: 25px;
+}
+
+.search-input-pelelangan {
+    border: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 40px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+.search-button-mahasiswa {
+    border: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    outline: black;
+}
+
+.data-pelelangan-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 50px 100px;
+}
+
+.data-pelelangan-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.table-pelelangan {
+    border-collapse: collapse;
+    width: 700;
+    margin: 0;
+}
+
+.table-pelelangan-header,
+.table-pelelangan-row {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.contact {
+    padding: 8rem 6.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.contact > p {
+    color: black;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.call-center {
+    font-size: 1.5rem;
+    margin-bottom: 0.5px;
+}
+
+.email {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    color: rgb(149, 145, 145);
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    color: rgb(143, 141, 141);
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+}
